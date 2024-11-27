@@ -1788,10 +1788,15 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
     text-transform: uppercase;
     padding-top: 0;
     padding-bottom: 0;
+    background-color: white !important;
 }
 
 .navbar .ts-background {
     transition: 1s ease;
+}
+
+.navbar-nav {
+    gap: 10px;
 }
 
 .nav-link.active:after {
@@ -1803,7 +1808,7 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 }
 
 .nav-link:after {
-    border-top: .1875rem solid #50537f;
+    border-top: .1875rem solid white;
     content: "";
     height: .1875rem;
     position: absolute;
@@ -2876,4 +2881,15 @@ E. Template Specific Elements
 
 .brandingcolor {
     color: #50537f;
+}
+
+.navbar-brand img {
+    height: 65px;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent !important;
 }
