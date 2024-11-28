@@ -2893,3 +2893,12 @@ E. Template Specific Elements
     overflow: hidden;
     background-color: transparent !important;
 }
+
+.pl15 {
+    padding: 0px 15px;
+}
+
+.contactFooter {
+    max-width: 100% !important;
+    flex: auto;
+}
