@@ -2892,6 +2892,8 @@ E. Template Specific Elements
     border-radius: 10px;
     overflow: hidden;
     background-color: transparent !important;
+    border: 1px solid white;
+    padding-top: 0px;
 }
 
 .pl15 {
@@ -2901,4 +2903,26 @@ E. Template Specific Elements
 .contactFooter {
     max-width: 100% !important;
     flex: auto;
+}
+
+.bg-brand {
+    background-color: #50537f !important;
+}
+
+.c-white {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.585);
+    font-weight: 100;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
 }
