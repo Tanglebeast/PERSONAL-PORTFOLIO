@@ -22,7 +22,7 @@
 <body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
     <div class="ts-page-wrapper" id="page-top">
         <!--NAVIGATION ******************************************************************************************-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-brand">
             <div class="container">
                 <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll" href="#page-top">
                     <img src="assets/img/logo (2).png" alt="Logo">
@@ -334,7 +334,7 @@
                                 <dt>Telefon:</dt>
                                 <dd>+49 173 326 7100</dd>
                                 <dt>Email:</dt>
-                                <dd>marvguellier1999@gmail.com</dd>
+                                <dd>contact@marvin-solutions.com</dd>
                                 <dt>Instagram:</dt>
                                 <dd>marv.elousart</dd>
                             </dl>
@@ -713,7 +713,7 @@
                             <i class="fas fa-envelope fa-3x mb-4 brandingcolor"></i>
                             <h5>Email</h5>
                             <div class="ts-opacity__50">
-                                <figure class="mb-0">marvguellier1999@gmail.com</figure>
+                                <figure class="mb-0">contact@marvin-solutions.com</figure>
                                 <!-- <figure>support@example.com</figure> -->
                             </div>
                             <!--end ts-opacity__50-->
@@ -776,10 +776,16 @@
                                     
                                 <!-- </div>
                             </div> -->
+
                             <!--end col-md-4-->
+
+
+
+
+
                             <div class="col-md-8 contactFooter">
                                 <h3>Schicken Sie mir eine Nachricht</h3>
-                                <form id="form-contact" method="post" class="clearfix ts-form ts-form-email" data-php-path="assets/php/email.php">
+                                <form id="form-contact" class="clearfix ts-form ts-form-email" onsubmit="sendEmail(); return false;">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6">
                                             <div class="form-group">
@@ -831,8 +837,14 @@
             </section>
             <!--end #contact-->
 
-            <div class="text-dark bg-white">
-                <div class="container py-3 position-relative">
+
+
+
+
+
+
+            <div class="text-dark bg-brand">
+                <div class="container py-3 position-relative c-white">
                     <small>© 2024 Marvin Guellier, Alle Rechte vorbehalten</small>
                     <a href="#page-top" class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll">
                         <i class="fa fa-arrow-up text-white"></i>
@@ -956,7 +968,17 @@
     <script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
     <script src="assets/js/odometer.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/emailjs-function.js"></script>
     <script src="assets/js/custom.js"></script>
+
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("UV9v4vtOEQVaO3Fwh");
+    })();
+    </script>
+
 
 </body>
 </html>
