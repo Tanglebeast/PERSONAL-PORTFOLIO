@@ -2913,6 +2913,15 @@ E. Template Specific Elements
     color: white;
 }
 
+.mr15 {
+    margin-right: 15px;
+}
+
+
+/* /////////
+NAVBAR CUSTOM
+///////// */
+
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.585);
     font-weight: 100;
@@ -2926,3 +2935,59 @@ E. Template Specific Elements
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: white;
 }
+
+
+/* /////////
+IMPRESSUM
+///////// */
+
+.imprint-section, .privacy-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  
+  .impressum-container, .privacy-container {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+    border-radius: 8px;
+    width: 70%;
+  }
+  
+  .section-header {
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    color: white !important;
+    margin-bottom: 20px;
+  }
+  
+  .info-section, .contact-info, .address-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.327);
+  }
+  
+  .impressum-container a, .privacy-container a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .impressum-container a:hover, .privacy-container a:hover {
+    text-decoration: underline;
+  }
+
+  .info-section p{
+    color: white !important;
+    opacity: .7;
+    margin: 5px;
+  }
+  
