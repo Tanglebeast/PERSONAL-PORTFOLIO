@@ -2788,7 +2788,7 @@ E. Template Specific Elements
     }
 
     .ts-bubble-border .ts-title-rotate span {
-        font-size: 16px;
+        font-size: 18px;
         padding: 1.2rem 2.0rem;
     }
 }
@@ -3068,7 +3068,9 @@ IMPRESSUM
     background-color: #50537f !important;
 }
 
-
+[class*="navbar-expand"] .navbar-nav .nav-link {
+    font-size: 15px;
+}
 
 
 
