@@ -1330,7 +1330,7 @@ blockquote h6 {
 .card {
     backface-visibility: hidden;
     border: none;
-    box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
+    /* box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15); */
     margin-bottom: 1.875rem;
     overflow: hidden;
 }
@@ -1623,7 +1623,7 @@ form.ts-labels-inside-input .form-group label.focused,
 }
 
 .mh280 {
-    min-height: 280px;
+    min-height: 300px;
 }
 
 .ts-item-header {
