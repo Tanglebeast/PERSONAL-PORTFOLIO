@@ -86,6 +86,7 @@ $(document).ready(function($) {
 
 //  Background
 
+
     $("[data-bg-color], [data-bg-image], [data-bg-particles]").each(function() {
         var $this = $(this);
 

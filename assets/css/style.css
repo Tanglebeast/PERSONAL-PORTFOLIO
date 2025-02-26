@@ -474,6 +474,7 @@ B. Helpers
     border-color: rgba(255, 255, 255, .1);
 }
 
+
 .ts-video-bg {
     height: 100%;
 }
@@ -766,7 +767,7 @@ a {
 }
 
 a:hover {
-    color: #0056b3;
+    color: #50537f;
     text-decoration: none;
 }
 
@@ -2785,6 +2786,11 @@ E. Template Specific Elements
     .mh280 {
         min-height: auto;
     }
+
+    .ts-bubble-border .ts-title-rotate span {
+        font-size: 16px;
+        padding: 1.2rem 2.0rem;
+    }
 }
 
 @media (min-width: 36rem) and (max-width: 61.9375rem) {
@@ -3056,6 +3062,10 @@ IMPRESSUM
 
 .mb45{
     margin-bottom: 45px !important;
+}
+
+.bg-brandingcolor {
+    background-color: #50537f !important;
 }
 
 
