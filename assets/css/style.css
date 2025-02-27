@@ -2791,6 +2791,12 @@ E. Template Specific Elements
         font-size: 18px;
         padding: 1.2rem 2.0rem;
     }
+    .call-to-action-section {
+        display: none;
+    }
+    .mt1-5rem {
+        margin-top: 1.5rem;
+    }
 }
 
 @media (min-width: 36rem) and (max-width: 61.9375rem) {
@@ -3380,3 +3386,42 @@ IMPRESSUM
     }
   
   }
+  
+
+
+
+
+  .slide img {
+    width: 75px;
+  }
+
+  .pt75 {
+    padding-top: 75px;;
+  }
+
+
+
+  /* Für WebKit-Browser (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 15px; /* Breite der Scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Hintergrundfarbe der Scrollbar-Spur */
+    border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #50537f, #50537f); /* Verlauf für den Scrollbar-Thumb */
+    border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #50537f, #50537f); /* Dunklerer Verlauf beim Hover */
+}
+
+/* Für Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #50537f transparent;
+}
