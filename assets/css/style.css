@@ -2797,6 +2797,9 @@ E. Template Specific Elements
     .mt1-5rem {
         margin-top: 1.5rem;
     }
+    .call-to-action-btn {
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 36rem) and (max-width: 61.9375rem) {
@@ -3432,4 +3435,17 @@ IMPRESSUM
     margin-top: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+.call-to-action-btn {
+    padding: 10px 15px !important;
+    background-color: #50537f;
+    color: white !important;
+    margin-left: 50px;
+}
+
+.call-to-action-btn:hover {
+    color: white !important;
+    padding: 15px 15px !important;
+    border-radius: 5px;
 }
