@@ -3425,3 +3425,11 @@ IMPRESSUM
     scrollbar-width: thin;
     scrollbar-color: #50537f transparent;
 }
+
+
+
+.form-contact-status {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
