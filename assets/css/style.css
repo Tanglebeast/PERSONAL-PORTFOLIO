@@ -2791,9 +2791,16 @@ E. Template Specific Elements
         font-size: 18px;
         padding: 1.2rem 2.0rem;
     }
-    .call-to-action-section {
+
+
+    /* .call-to-action-section {
         display: none;
+    } */
+
+    .slide img {
+        width: 40px !important;
     }
+
     .mt1-5rem {
         margin-top: 1.5rem;
     }
@@ -3402,6 +3409,23 @@ IMPRESSUM
     padding-top: 75px;;
   }
 
+  .pt60 {
+    padding-top: 60px;
+  }
+
+  .padding10 {
+    padding: 20px 0;
+  }
+
+  .bp30 {
+    padding-bottom: 30px !important;
+  }
+
+  .bg-card {
+    /* background-color: #00000047; */
+    /* border-top: 1px solid rgba(255, 255, 255, 0.084); */
+  }
+
 
 
   /* Für WebKit-Browser (Chrome, Safari) */
@@ -3448,4 +3472,9 @@ IMPRESSUM
     color: white !important;
     padding: 15px 15px !important;
     border-radius: 5px;
+}
+
+.slick-initialized .slick-slide {
+    display: flex !important;
+    justify-content: center;
 }
